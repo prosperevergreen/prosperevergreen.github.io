@@ -3,7 +3,7 @@ services:
   portfolio-app:
     build:
       dockerfile: Dockerfile.prod
-    # ports:
-    #   - "80:80"
+    ports:
+      - "8080:80"
     environment:
       NODE_ENV: production
